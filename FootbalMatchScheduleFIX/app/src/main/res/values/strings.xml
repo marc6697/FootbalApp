@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FootbalMatchScheduleFIX</string>
+    <string name="title_home">Favorite</string>
+    <string name="title_lastmatch">Last Match</string>
+    <string name="title_nextmatch">Next Match</string>
+    <string name="text">%1$s\n%2$s</string>
+    <string name="favorites"/>
+</resources>

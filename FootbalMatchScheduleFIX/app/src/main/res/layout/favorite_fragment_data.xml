@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:layout_margin="5dp">
+
+    <TextView
+            android:id="@+id/MatchSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Last Match"
+            android:background="#F30808"
+            android:textAlignment="center"
+            android:textColor="#000"
+    />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F8F404"
+            android:orientation="horizontal">
+
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/home_team_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Home Team Name"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+            <TextView
+                    android:id="@+id/home_score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Home Score"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+        </LinearLayout>
+
+        <TextView
+                android:id="@+id/tvVersus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="Versus"
+                android:textColor="#F30808"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"/>
+
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/away_team_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Away Team Name"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+            <TextView
+                    android:id="@+id/away_score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Away Score"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
